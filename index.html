@@ -2,14 +2,15 @@
 <html lang="en">
 
 <head>
-    <title>WebSkills</title>
+    <title>Home</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 </head>
 
-<body>
+<body class="mb-0">
+    <a name="top"></a>
     <header style="background-color: #e5fae9;">
         <nav class="navbar navbar-expand-sm navbar-light">
             <div class="container-fluid">
@@ -32,7 +33,7 @@
                                 <a class="dropdown-item" href="#">Aves</a>
                                 <a class="dropdown-item" href="#">Mamíferos</a>
                                 <a class="dropdown-item" href="#">Peces</a>
-                                <a class="dropdown-item" href="#">Reptiles</a>
+                                <a class="dropdown-item" href="catalogoreptiles.html">Reptiles</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -74,7 +75,7 @@
                         <img src="carrusel/peces1.png" class="w-100 d-block" alt="4 slide" />
                     </div>
                     <div class="carousel-item">
-                        <img src="carrusel/reptiles1.png" class="w-100 d-block" alt="5 slide" />
+                        <a href="catalogoreptiles.html"><img src="carrusel/reptiles1.png" class="w-100 d-block" alt="5 slide" /></a>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
@@ -110,7 +111,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3 mx-auto">
+                    <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3 mx-auto ">
                         <div class="card h-100 border-0">
                             <img src="categorias/maniferos.jpeg" alt="" class="card-img-top img-fluid rounded-circle">
                             <div class="card-body text-white py-0  w-100 mx-auto mt-3"
@@ -130,11 +131,13 @@
                     </div>
                     <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3 mx-auto">
                         <div class="card h-100 border-0">
-                            <img src="categorias/reptiles.jpeg" alt="" class="card-img-top img-fluid rounded-circle">
+                            <a href="catalogoreptiles.html" class="">
+                            <img src="categorias/reptiles.jpeg" alt="" class="card-img-top img-fluid rounded-circle"></a>
                             <div class="card-body text-white py-0 w-100 mx-auto mt-3"
                                 style="background-color: #27a844;">
-                                <h4 class="card-title">Reptiles</h4>
+                                <a href="catalogoreptiles.html" class="text-decoration-none text-white"><h4 class="card-title">Reptiles</h4></a>
                             </div>
+                            
                         </div>
                     </div>
 
@@ -142,66 +145,63 @@
             </div>
         </section>
     </main>
-    <footer class="mt-2 " style="background-color: rgb(108, 116, 126);">
-        <section>
-            <h3 class="text-center">CLM SKILLS WEB - 2021</h3>
-        </section>
-        <section class="container">
+    <footer class="mt-2" style="background-color: rgb(108, 116, 126);">
+        <h3 class="text-center pt-2">CLM SKILLS WEB - 2021</h3>
+        <section class="container w-75">
             <div class="row">
-                <div class="col-md-1 mb-3">
+                <div class="col-md-1">
                     <a name="" id="" class="btn btn-primary" href="#top" role="button"
                         style="background-color: rgb(39, 168, 68); border: none;">SUBIR</a>
                 </div>
-                <div class="col-md-5 mb-3 text-white text-lg-center">
-                    <h5 style="color: black;">Centros participantes</h5>
-                    <a href="http://www.ies-azarquiel.es/" class="list-group-item"><b>I.E.S. Azarquiel</b></a>
-                    <a href="http://www.iesjuanbosco.es/" class="list-group-item"><b>I.E.S. Juan Bosco</b></a>
-                    <a href="http://iesmaestredecalatrava.es/" class="list-group-item"><b>I.E.S. Maestre de
-                            Calatrava</b></a>
-                    <a href="https://cifpvirgendegracia.com/" class="list-group-item"><b>C.I.F.P. Virgen de
-                            Gracia</b></a>
-                    <a href="http://www.iesgregorioprieto.com/" class="list-group-item"><b>I.E.S. Gregorio
-                            Prieto</b></a>
-                    <a href="https://www.iespedromercedes.es/" class="list-group-item"><b>I.E.S. Pedro Mercedes</b></a>
-                    <a href="http://briandademendoza.es/" class="list-group-item"><b>I.E.S. Brianda de Mendoza</b></a>
-                    <a href="http://riberadeltajo.es/nuevaweb/ " class="list-group-item"><b>I.E.S. Ribera del
-                            Tajo</b></a>
+                <div class="col-md-5">
+                    <h5 class="text-dark">Centros participantes</h5>
+                    <ul>
+                        <li class="list-group-item pb-2"><a href="http://www.ies-azarquiel.es/" class="text-decoration-none text-white"><b>I.E.S. Azarquiel</b></a></li>
+                        <li class="list-group-item pb-2"><a href="http://www.iesjuanbosco.es/" class="text-decoration-none text-white"><b>I.E.S. Juan Bosco</b></a></li>
+                        <li class="list-group-item pb-2"><a href="http://iesmaestredecalatrava.es/" class="text-decoration-none text-white"><b>I.E.S. Maestre de
+                            Calatrava</b></a></li>
+                        <li class="list-group-item pb-2"><a href="https://cifpvirgendegracia.com/" class="text-decoration-none text-white"><b>C.I.F.P. Virgen de
+                            Gracia</b></a></li>
+                        <li class="list-group-item" pb-2><a href="http://www.iesgregorioprieto.com/" class="text-decoration-none text-white"><b>I.E.S. Gregorio
+                            Prieto</b></a></li>
+                        <li class="list-group-item pb-2"><a href="https://www.iespedromercedes.es/" class="text-decoration-none text-white"><b>I.E.S. Pedro Mercedes</b></a></li>
+                        <li class="list-group-item pb-2"><a href="http://briandademendoza.es/" class="text-decoration-none text-white"><b>I.E.S. Brianda de Mendoza</b></a></li>
+                        <li class="list-group-item pb-2"><a href="http://riberadeltajo.es/nuevaweb/" class="text-decoration-none text-white"><b>I.E.S. Ribera del
+                            Tajo</b></a></li>
+                    </ul>
                 </div>
-                <div class="col text-lg-center text-white">
-                    <a href="" class="list-group-item"><b>Quienes Somos</b></a>
-                    <a href="" class="list-group-item" data-bs-toggle="modal"
-                        data-bs-target="#modalPrivacidad"><b>Privacidad</b></a>
-                    <a href="" class="list-group-item"><b>Contacto</b></a>
+                <div class="col-md-5">
+                    <ul>
+                        <li class="list-group-item pb-2"><a href="quienessomos.html" class="text-decoration-none text-white"><b>Quienes Somos</b></a></li>
+                        <li class="list-group-item pb-2"><a href="" data-bs-toggle="modal" data-bs-target="#modalPrivacidad" class="text-decoration-none text-white"><b>Privacidad</b></a></li>
+                        <li class="list-group-item pb-2"><a href="" data-bs-toggle="modal" data-bs-target="#modalContacto" class="text-decoration-none text-white"><b>Contacto</b></a></li>
+                    </ul>
                 </div>
-                <div class="col">
-                    <a name="" id="" class="btn btn-primary" href="#" role="button"
+                <div class="col-md-1">
+                    <a name="" id="" class="btn btn-primary" href="index.html" role="button"
                         style="background-color: rgb(39, 168, 68); border: none;">HOME</a>
                 </div>
             </div>
         </section>
-        <section class="text-center">
-            <p>Catálogo de animales <i class="fa fa-copyright" aria-hidden="true"></i> S1DAM - S1DAW</p>
-        </section>
+        <h5 class="text-center small pb-2">Catálogo de animales &copy; S1DAM - S1DAW</h5>
     </footer>
 
     <div class="modal fade" id="modalInicioSesion" tabindex="-1" data-bs-keyboard="false" role="dialog"
         aria-labelledby="modalTitleId" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-dialog-top modal-sm" role="document">
             <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h1 class="modal-title" id="modalTitleId">INICIA SESIÓN</h1>
-                </div>
-                <div>
-                    <form action="kk.php" method="get" class="form-login">
-                        <div class="modal-body">
+                <div class="modal-body">
+                    <h1 class="modal-title text-center mb-4" id="modalTitleId">INICIA SESIÓN</h1>
+                    <fieldset class="border-2 border p-3 rounded-1">
+                        <form action="kk.php" method="get" class="form-login">
                             <p class="mb-2">Usuario</p>
                             <input type="text" name="" id="" class="w-100">
                             <p class="mb-2 mt-2">Contraseña</p>
                             <input type="text" name="" id="" class="w-100">
                             <button type="button" class="btn text-white w-100 mt-4" data-bs-dismiss="modal"
                                 style="background-color: #27a844;">Entrar</button>
-                        </div>
-                    </form>
+                        </form>
+                    </fieldset>
                 </div>
             </div>
         </div>
@@ -211,13 +211,10 @@
         aria-labelledby="modalTitleId" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-dialog-top modal-md" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalTitleId">REGISTRO DE USUARIO</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div>
-                    <form action="kk.php" method="get" class="form-login">
-                        <div class="modal-body">
+                <div class="modal-body">
+                    <h2 class="modal-title text-center mb-4" id="modalTitleId">Registro de usuario</h2>
+                    <fieldset class="border-2 border p-3 rounded-1">
+                        <form action="kk.php" method="get" class="form-login">
                             <p class="mb-2">Usuario</p>
                             <input type="text" name="" id="" class="w-100">
                             <p class="mb-2 mt-2">Contraseña</p>
@@ -232,8 +229,8 @@
                             <input type="text" name="" id="" class="w-100">
                             <button type="button" class="btn text-white w-100 mt-4" data-bs-dismiss="modal"
                                 style="background-color: #27a844;">Entrar</button>
-                        </div>
-                    </form>
+                        </form>
+                    </fieldset>
                 </div>
             </div>
         </div>
@@ -247,13 +244,16 @@
                     <h5 class="modal-title" id="modalTitleId">Privacidad</h5>
                 </div>
                 <div class="modal-body">
-                    <h2>1. Datos generales</h2>
-                    <div class="ms-4">
-                        <p class="bold">De acuerdo con el artículo 10 de la Ley 34/2002, de 11 de julio, de
-                            Servicios de
-                            la Sociedad de la Información y de Comercio Electrónico ponemos a su disposición los
-                            siguientes datos:
-                        </p>
+                    <h1 class="text-center">Términos y Condiciones de uso</h1>
+                    <ol>
+                        <h2>
+                            <li>Datos generales</li>
+                        </h2>
+                        <p><b>De acuerdo con el artículo 10 de la Ley 34/2002, de 11 de julio, de
+                                Servicios de
+                                la Sociedad de la Información y de Comercio Electrónico ponemos a su disposición los
+                                siguientes datos:
+                            </b></p>
                         <p>catalogodeanimales.es está domiciliada en la calle Ronda S/N, con CIF B556677. Inscrita
                             en el
                             Registro Mercantil de Talavera de la Reina, Vol. xxxx, Folio xxxx, Hoja xxxx,
@@ -264,10 +264,9 @@
                             clientes y al público en general, la información relativa a la empresa, a los productos
                             y
                             servicios que se ofrecen.</p>
-
-                    </div>
-                    <h2>2. Política de privacidad</h2>
-                    <div class="ms-4">
+                        <h2>
+                            <li>Política de privacidad</li>
+                        </h2>
                         <p>En cumplimiento de lo dispuesto en la <b>Ley Orgánica 15/1999, de 13 de Diciembre, de
                                 Protección de Datos de Carácter Personal (LOPD)</b> se informa al usuario que todos
                             los
@@ -284,10 +283,9 @@
                             sede de la empresa C/Ronda S/N de Talavera de la Reina, escribirnos al siguiente correo
                             contacto@catalogodeanimales.es o llámanos al 777888999.
                         </p>
-                    </div>
-
-                    <h2>3. Condiciones de uso</h2>
-                    <div class="ms-4">
+                        <h2>
+                            <li>Condiciones de uso</li>
+                        </h2>
                         <p><b>Las condiciones de acceso y uso del presente sitio web se rigen por la legalidad
                                 vigente y
                                 por el principio de buena fe</b> comprometiéndose el usuario a realizar un buen uso
@@ -305,10 +303,9 @@
                             escrita
                             y/o correo certificado.
                         </p>
-                    </div>
-
-                    <h2>4. Responsabilidades</h2>
-                    <div class="ms-4">
+                        <h2>
+                            <li>Responsabilidades</li>
+                        </h2>
                         <p><b>catalogodeanimales.es, no se hace responsable de la información y contenidos
                                 almacenados
                                 en foros, redes sociales o cualesquier otro medio</b> que permita a terceros
@@ -340,10 +337,9 @@
                             tiendas
                             físicas con las que cuenta catalogodeanimales.es.
                         </p>
-                    </div>
-
-                    <h2>5. Propiedad intelectual e industrial.</h2>
-                    <div class="ms-4">
+                        <h2>
+                            <li>Propiedad intelectual e industrial.</li>
+                        </h2>
                         <p><b>catalogodeanimales.es es titular de todos los derechos sobre el software de la
                                 publicación
                                 digital así como de los derechos de propiedad industrial e intelectual referidos a
@@ -366,11 +362,9 @@
                             catalogodeanimales.es a efectos de promoción y de recopilación de información. Estos
                             propietarios pueden solicitar la modificación o eliminación de la información que les
                             pertenece.</p>
-                    </div>
-
-                    <h2>6. Política de cookies.
-                    </h2>
-                    <div class="ms-4">
+                        <h2>
+                            <li>Política de cookies.</li>
+                        </h2>
                         <p><b>catalogodeanimales.es por su propia cuenta o la de un tercero contratado para
                                 prestación
                                 de servicios de medición, pueden utilizar cookies cuando el usuario navega por el
@@ -406,13 +400,35 @@
                             más eficaz su transmisión ulterior. En ningún caso se utilizará cookies para recoger
                             información de carácter personal.
                         </p>
-                    </div>
+                    </ol>
                 </div>
             </div>
         </div>
     </div>
-    
-    <!-- Bootstrap JavaScript Libraries -->
+
+    <div class="modal fade" id="modalContacto" tabindex="-1" data-bs-keyboard="false" role="dialog"
+        aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-top modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2 class="modal-title text-center mb-4" id="modalTitleId">Escribe un comentario para contactar</h2>
+                    <fieldset class="border-2 border p-3 rounded-1">
+                        <form action="kk.php" method="get" class="form-login">
+                            <p class="mb-2">Usuario</p>
+                            <input type="text" name="" id="" class="w-100">
+                            <p class="mb-2 mt-2">Tu E-mail</p>
+                            <input type="text" name="" id="" class="w-100">
+                            <p class="mb-2 mt-2">Tu comentario</p>
+                            <textarea name="comentarios" id="" cols="50" rows="5" class="w-100"></textarea>
+                            <button type="button" class="btn text-white w-100 mt-4" data-bs-dismiss="modal"
+                                style="background-color: #27a844;">Entrar</button>
+                        </form>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
