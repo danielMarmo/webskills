@@ -36,10 +36,12 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Registrate</a>
+                            <a class="nav-link active" href="#" data-bs-toggle="modal"
+                                data-bs-target="#modalRegistro">Registrate</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalLogin">Inicia
+                            <a class="nav-link" href="#" data-bs-toggle="modal"
+                                data-bs-target="#modalInicioSesion">Inicia
                                 sesión</a>
                         </li>
                     </ul>
@@ -50,7 +52,7 @@
     <main class="container w-75 mt-4">
         <section>
             <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-                <ol class="carousel-indicators">
+                <ol class="carousel-indicators list-unstyled">
                     <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
                         aria-label="1 slide"></li>
                     <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="2 slide"></li>
@@ -89,32 +91,327 @@
             <div class="text-center">
                 <h1>Catálogo de animales</h1>
                 <h2>Los otros animales de la tierra</h2>
-                <div class="row my-5">
-                    <div class="col-5 col-sm-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4">
+                <div class="row my-5 mx-auto">
+                    <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3 mx-auto">
                         <div class="card h-100 border-0">
-                            <div class="row">
-                                <div class="col-md-4 mx-0">
-                                    <img src="animales/anfibios/anfhuma.jpg" alt="Imagen 1" class="card-img-top img-fluid">
-                                    <img src="animales/anfibios/anfhuma.jpg" alt="Imagen 2" class="card-img-top img-fluid">
-                                </div>
-                                <div class="col-md-4 mx-0">
-                                    <img src="animales/anfibios/anfhuma.jpg" alt="Imagen 3" class="card-img-top img-fluid">
-                                    <img src="animales/anfibios/anfhuma.jpg" alt="Imagen 3" class="card-img-top img-fluid">
-                                </div>
-                            </div>
-                            <div class="card-body text-white py-0 w-75" style="background-color: #27a844;">
+                            <img src="categorias/anfibios.jpeg" alt="" class="card-img-top img-fluid rounded-circle">
+                            <div class="card-body text-white py-0 w-100 mx-auto mt-3"
+                                style="background-color: #27a844;">
                                 <h4 class="card-title">Anfibios</h4>
                             </div>
                         </div>
                     </div>
-                </div>    
+                    <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3 mx-auto">
+                        <div class="card h-100 border-0">
+                            <img src="categorias/aves.jpeg" alt="" class="card-img-top img-fluid rounded-circle">
+                            <div class="card-body text-white py-0 w-100 mx-auto mt-3"
+                                style="background-color: #27a844;">
+                                <h4 class="card-title">Aves</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3 mx-auto">
+                        <div class="card h-100 border-0">
+                            <img src="categorias/maniferos.jpeg" alt="" class="card-img-top img-fluid rounded-circle">
+                            <div class="card-body text-white py-0  w-100 mx-auto mt-3"
+                                style="background-color: #27a844;">
+                                <h4 class="card-title">Mamíferos</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3 mx-auto">
+                        <div class="card h-100 border-0">
+                            <img src="categorias/peces.jpeg" alt="" class="card-img-top img-fluid rounded-circle">
+                            <div class="card-body text-white py-0 w-100 mx-auto mt-3"
+                                style="background-color: #27a844;">
+                                <h4 class="card-title">Peces</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3 mx-auto">
+                        <div class="card h-100 border-0">
+                            <img src="categorias/reptiles.jpeg" alt="" class="card-img-top img-fluid rounded-circle">
+                            <div class="card-body text-white py-0 w-100 mx-auto mt-3"
+                                style="background-color: #27a844;">
+                                <h4 class="card-title">Reptiles</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
-    
     </main>
-    <footer style="background-color: #e5fae9;">
-        <!-- place footer here -->
+    <footer class="mt-2 " style="background-color: rgb(108, 116, 126);">
+        <section>
+            <h3 class="text-center">CLM SKILLS WEB - 2021</h3>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-1 mb-3">
+                    <a name="" id="" class="btn btn-primary" href="#top" role="button"
+                        style="background-color: rgb(39, 168, 68); border: none;">SUBIR</a>
+                </div>
+                <div class="col-md-5 mb-3 text-white text-lg-center">
+                    <h5 style="color: black;">Centros participantes</h5>
+                    <a href="http://www.ies-azarquiel.es/" class="list-group-item"><b>I.E.S. Azarquiel</b></a>
+                    <a href="http://www.iesjuanbosco.es/" class="list-group-item"><b>I.E.S. Juan Bosco</b></a>
+                    <a href="http://iesmaestredecalatrava.es/" class="list-group-item"><b>I.E.S. Maestre de
+                            Calatrava</b></a>
+                    <a href="https://cifpvirgendegracia.com/" class="list-group-item"><b>C.I.F.P. Virgen de
+                            Gracia</b></a>
+                    <a href="http://www.iesgregorioprieto.com/" class="list-group-item"><b>I.E.S. Gregorio
+                            Prieto</b></a>
+                    <a href="https://www.iespedromercedes.es/" class="list-group-item"><b>I.E.S. Pedro Mercedes</b></a>
+                    <a href="http://briandademendoza.es/" class="list-group-item"><b>I.E.S. Brianda de Mendoza</b></a>
+                    <a href="http://riberadeltajo.es/nuevaweb/ " class="list-group-item"><b>I.E.S. Ribera del
+                            Tajo</b></a>
+                </div>
+                <div class="col text-lg-center text-white">
+                    <a href="" class="list-group-item"><b>Quienes Somos</b></a>
+                    <a href="" class="list-group-item" data-bs-toggle="modal"
+                        data-bs-target="#modalPrivacidad"><b>Privacidad</b></a>
+                    <a href="" class="list-group-item"><b>Contacto</b></a>
+                </div>
+                <div class="col">
+                    <a name="" id="" class="btn btn-primary" href="#" role="button"
+                        style="background-color: rgb(39, 168, 68); border: none;">HOME</a>
+                </div>
+            </div>
+        </section>
+        <section class="text-center">
+            <p>Catálogo de animales <i class="fa fa-copyright" aria-hidden="true"></i> S1DAM - S1DAW</p>
+        </section>
     </footer>
+
+    <div class="modal fade" id="modalInicioSesion" tabindex="-1" data-bs-keyboard="false" role="dialog"
+        aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-top modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h1 class="modal-title" id="modalTitleId">INICIA SESIÓN</h1>
+                </div>
+                <div>
+                    <form action="kk.php" method="get" class="form-login">
+                        <div class="modal-body">
+                            <p class="mb-2">Usuario</p>
+                            <input type="text" name="" id="" class="w-100">
+                            <p class="mb-2 mt-2">Contraseña</p>
+                            <input type="text" name="" id="" class="w-100">
+                            <button type="button" class="btn text-white w-100 mt-4" data-bs-dismiss="modal"
+                                style="background-color: #27a844;">Entrar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalRegistro" tabindex="-1" data-bs-keyboard="false" role="dialog"
+        aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-top modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleId">REGISTRO DE USUARIO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div>
+                    <form action="kk.php" method="get" class="form-login">
+                        <div class="modal-body">
+                            <p class="mb-2">Usuario</p>
+                            <input type="text" name="" id="" class="w-100">
+                            <p class="mb-2 mt-2">Contraseña</p>
+                            <input type="text" name="" id="" class="w-100">
+                            <p class="mb-2 mt-2">Repite la contraseña</p>
+                            <input type="text" name="" id="" class="w-100">
+                            <p class="mb-2 mt-2">Email</p>
+                            <input type="text" name="" id="" class="w-100">
+                            <p class="mb-2 mt-2">Dirección</p>
+                            <input type="text" name="" id="" class="w-100">
+                            <p class="mb-2 mt-2">Teléfono</p>
+                            <input type="text" name="" id="" class="w-100">
+                            <button type="button" class="btn text-white w-100 mt-4" data-bs-dismiss="modal"
+                                style="background-color: #27a844;">Entrar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalPrivacidad" tabindex="-1" data-bs-keyboard="false" role="dialog"
+        aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-top modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h5 class="modal-title" id="modalTitleId">Privacidad</h5>
+                </div>
+                <div class="modal-body">
+                    <h2>1. Datos generales</h2>
+                    <div class="ms-4">
+                        <p class="bold">De acuerdo con el artículo 10 de la Ley 34/2002, de 11 de julio, de
+                            Servicios de
+                            la Sociedad de la Información y de Comercio Electrónico ponemos a su disposición los
+                            siguientes datos:
+                        </p>
+                        <p>catalogodeanimales.es está domiciliada en la calle Ronda S/N, con CIF B556677. Inscrita
+                            en el
+                            Registro Mercantil de Talavera de la Reina, Vol. xxxx, Folio xxxx, Hoja xxxx,
+                            Inscripción
+                            xxx.</p>
+                        <p>En la web catalogodeanimales.es hay una serie de contenidos de carácter informativo sobre
+                            animales, especies, y características. <b>Su principal objetivo</b> es facilitar a los
+                            clientes y al público en general, la información relativa a la empresa, a los productos
+                            y
+                            servicios que se ofrecen.</p>
+
+                    </div>
+                    <h2>2. Política de privacidad</h2>
+                    <div class="ms-4">
+                        <p>En cumplimiento de lo dispuesto en la <b>Ley Orgánica 15/1999, de 13 de Diciembre, de
+                                Protección de Datos de Carácter Personal (LOPD)</b> se informa al usuario que todos
+                            los
+                            datos que nos proporcione serán incorporados a un fichero, creado y mantenido bajo la
+                            responsabilidad de catalogodeanimales.es.
+                        </p>
+                        <p>Siempre <b>se va a respetar la confidencialidad de sus datos personales</b> que sólo
+                            serán
+                            utilizados con la finalidad de gestionar los servicios ofrecidos, atender a las
+                            solicitudes
+                            que nos plantee, realizar tareas administrativas, así como remitir información técnica,
+                            comercial o publicitaria por vía ordinaria o electrónica.</p>
+                        <p>Para ejercer sus derechos de oposición, rectificación o cancelación deberá dirigirse a la
+                            sede de la empresa C/Ronda S/N de Talavera de la Reina, escribirnos al siguiente correo
+                            contacto@catalogodeanimales.es o llámanos al 777888999.
+                        </p>
+                    </div>
+
+                    <h2>3. Condiciones de uso</h2>
+                    <div class="ms-4">
+                        <p><b>Las condiciones de acceso y uso del presente sitio web se rigen por la legalidad
+                                vigente y
+                                por el principio de buena fe</b> comprometiéndose el usuario a realizar un buen uso
+                            de
+                            la web. No se permiten conductas que vayan contra la ley, los derechos o intereses de
+                            terceros.
+                        </p>
+                        <p>Ser usuario de la web de catalogodeanimales.es implica que reconoce haber leído y
+                            aceptado
+                            las presentes condiciones y lo que las extienda la normativa legal aplicable en esta
+                            materia. Si por el motivo que fuere no está de acuerdo con estas condiciones no continúe
+                            usando esta web.
+                        </p>
+                        <p>Cualquier tipo de notificación y/o reclamación solamente será válida por notificación
+                            escrita
+                            y/o correo certificado.
+                        </p>
+                    </div>
+
+                    <h2>4. Responsabilidades</h2>
+                    <div class="ms-4">
+                        <p><b>catalogodeanimales.es, no se hace responsable de la información y contenidos
+                                almacenados
+                                en foros, redes sociales o cualesquier otro medio</b> que permita a terceros
+                            publicar
+                            contenidos de forma independiente en la página web del prestador.
+                        </p>
+                        <p>Sin embargo, teniendo en cuenta los art. 11 y 16 de la LSSI-CE, catalogodeanimales.es se
+                            compromete a la retirada o en su caso bloqueo de aquellos contenidos que pudieran
+                            afectar o
+                            contravenir la legislación nacional o internacional, derechos de terceros o la moral y
+                            el
+                            orden público.</p>
+                        <p><b>Tampoco la empresa se responsabilizará de los daños y perjuicios que se produzcan por
+                                fallos o malas configuraciones del software instalado en el ordenador del
+                                internauta.</b> Se excluye toda responsabilidad por alguna incidencia técnica o
+                            fallo
+                            que se produzca cuando el usuario se conecte a internet. Igualmente no se garantiza la
+                            inexistencia de interrupciones o errores en el acceso al sitio web.</p>
+                        <p>Así mismo, <b>catalogodeanimales.es se reserva el derecho a actualizar, modificar o
+                                eliminar
+                                la información contenida en su página web,</b> así como la configuración o
+                            presentación
+                            del mismo, en cualquier momento sin asumir alguna responsabilidad por ello.
+                        </p>
+                        <p>Le comunicamos que cualquier precio que pueda ver en nuestra web será solamente
+                            orientativo.
+                            Si el usuario desea saber con exactitud el precio o si el producto en el momento actual
+                            cuenta con alguna oferta de la cual se puede beneficiar ha de acudir a alguna de las
+                            tiendas
+                            físicas con las que cuenta catalogodeanimales.es.
+                        </p>
+                    </div>
+
+                    <h2>5. Propiedad intelectual e industrial.</h2>
+                    <div class="ms-4">
+                        <p><b>catalogodeanimales.es es titular de todos los derechos sobre el software de la
+                                publicación
+                                digital así como de los derechos de propiedad industrial e intelectual referidos a
+                                los
+                                contenidos que se incluyan,</b> a excepción de los derechos sobre productos y
+                            servicios
+                            de carácter público que no son propiedad de esta empresa.
+                        </p>
+                        <p><b>Ningún material publicado en esta web podrá ser reproducido, copiado o publicado</b>
+                            sin
+                            el consentimiento por escrito de catalogodeanimales.es.</p>
+                        <p>Toda la información que se reciba en la web, como comentarios, sugerencias o ideas, se
+                            considerará cedida a catalogodeanimales.es de manera gratuita. No debe enviarse
+                            información
+                            que NO pueda ser tratada de este modo.
+                        </p>
+                        <p>Todos los productos y servicios de estas páginas que NO son propiedad de
+                            catalogodeanimales.es son marcas registradas de sus respectivos propietarios y son
+                            reconocidas como tales por nuestra empresa. Solamente aparecen en la web de
+                            catalogodeanimales.es a efectos de promoción y de recopilación de información. Estos
+                            propietarios pueden solicitar la modificación o eliminación de la información que les
+                            pertenece.</p>
+                    </div>
+
+                    <h2>6. Política de cookies.
+                    </h2>
+                    <div class="ms-4">
+                        <p><b>catalogodeanimales.es por su propia cuenta o la de un tercero contratado para
+                                prestación
+                                de servicios de medición, pueden utilizar cookies cuando el usuario navega por el
+                                sitio
+                                web. Las cookies son ficheros enviados al navegador por medio de un servicio web con
+                                la
+                                finalidad de registrar las actividades del usuario durante su tiempo de navegación.
+                            </b></p>
+                        <p>Las cookies utilizadas se asocian únicamente con un usuario anónimo y su ordenador, y no
+                            proporcionan por sí mismas los datos personales del usuario.
+                        </p>
+                        <p><b>Mediante el uso de las cookies resulta posible que el servidor donde se encuentra la
+                                web
+                                reconozca el navegador web utilizado por el usuario con la finalidad de que la
+                                navegación sea más sencilla.</b> Se utilizan también para medir la audiencia y
+                            parámetros del tráfico, controlar el proceso y número de entradas.
+                        </p>
+                        <p>El usuario tiene la posibilidad de configurar su navegador para ser avisado de la
+                            recepción
+                            de cookies y para impedir su instalación en su equipo. Por favor consulte las
+                            instrucciones
+                            y manuales de su navegador para ampliar esta información.
+                        </p>
+                        <p>Para utilizar el sitio web no es necesario que el usuario permita la instalación de las
+                            cookies enviadas al sitio web, o el tercero que actúe en su nombre, sin perjuicio de que
+                            sea
+                            necesario que el usuario inicie una sesión tal en cada uno de los servicios cuya
+                            prestación
+                            requiera el previo registro.
+                        </p>
+                        <p>En todo caso <b>las cookies tienen un carácter temporal</b> con la única finalidad de
+                            hacer
+                            más eficaz su transmisión ulterior. En ningún caso se utilizará cookies para recoger
+                            información de carácter personal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
